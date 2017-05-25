@@ -1,0 +1,51 @@
+/*body{
+	background: peru;
+}*/
+
+/* tipo de selector{
+	propiedad: valor;
+}*/
+
+/* selector universal * a todo lo que hay en la pagina*/
+*{
+	border: 1px solid red;
+	margin: 10px;
+}
+
+/* selector de etiqueta */
+header{
+	background: blue;
+}
+
+section{
+	background: purple;
+}
+
+/* selector descendente es la base de css. En tipo cascada */
+
+/* afectamos los titulos h3 dentro de las etiquetas article */
+article h3{
+	color: green;
+}
+
+/* selectores de clase */
+.title-a{
+	background: yellow;
+}
+
+.title-b{
+	background: salmon;
+}
+
+/* selector de id */
+#header{
+	border: 3px solid black;
+}
+
+#portada{
+	border: 3px solid orange;
+}
+
+#guitarras{
+	border: 3px solid brown;
+}
